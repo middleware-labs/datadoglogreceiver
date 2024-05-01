@@ -12,7 +12,6 @@ import (
 	"time"
 
 	"github.com/middleware-labs/datadoglogreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent"
 )
 
 // NewFactory creates a factory for DataDog receiver.
@@ -41,5 +40,3 @@ func createLogsReceiver(_ context.Context, params receiver.CreateSettings, cfg c
 	})
 	return r, nil
 }
-
-var receivers = sharedcomponent.NewSharedComponents()
