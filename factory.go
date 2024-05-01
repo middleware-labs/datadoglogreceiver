@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/middleware-labs/datadoglogreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent"
+	"github.com/middleware-labs/datadoglogreceiver/internal/sharedcomponent"
 )
 
 // NewFactory creates a factory for DataDog receiver.
