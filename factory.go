@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"time"
 
+	"github.com/middleware-labs/datadoglogreceiver/internal/metadata"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/datadoglogreceiver/internal/metadata"
 )
 
 // NewFactory creates a factory for DataDog receiver.
